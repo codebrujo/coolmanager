@@ -6,10 +6,10 @@ coolmanager RPi OS servise controls external fan via pin 15
 
 ### bash commands to manage pin manually
 
-pinctrl help
-pinctrl set 15 op dh
-pinctrl get 15
-pinctrl set 15 op dl
+- pinctrl help
+- pinctrl set 15 op dh
+- pinctrl get 15
+- pinctrl set 15 op dl
 
 ### bash command to extract and display temperature manually
 
