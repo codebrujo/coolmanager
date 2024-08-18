@@ -1,0 +1,15 @@
+[Unit]
+Description=Cooler manager
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/coolmanager.sh start
+ExecStop=/usr/bin/coolmanager.sh stop
+
+Restart=always
+PIDFile=/var/run/coolmanager.pid
+OOMScoreAdjust=-200
+TimeoutSec=20
+
+[Install]
+WantedBy=multi-user.target
