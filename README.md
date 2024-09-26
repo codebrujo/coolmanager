@@ -30,6 +30,7 @@ cpu=$(</sys/class/thermal/thermal_zone0/temp) && echo "$((cpu/1000))"
 
 ### Commands to install
 
+- git clone https://github.com/codebrujo/coolmanager.git
 - chmod -v +x coolmanager.sh
 - sudo cp coolmanager.sh /usr/bin/
 - sudo cp coolmanager.service /etc/systemd/system/
